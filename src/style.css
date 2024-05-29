@@ -1,1 +1,29 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: darkgreen;
+}
+
+#palo {
+  height: 150px;
+  font-size: 4rem;
+}
+
+#cartas {
+  text-align: center;
+  height: 150px;
+  font-size: 4rem;
+}
+
+#palo-2 {
+  text-align: end;
+  height: 80px;
+  font-size: 4rem;
+}
+
+.carta {
+  width: 18rem;
+  margin: auto;
+  border: 8px solid black;
+  border-radius: 15px;
+  background-color: white;
+}
